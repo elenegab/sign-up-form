@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">  
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+ 
+</head>
+<body>
+<div class="container">
+  
+  <div class="text">
+    <h1>Learn to code by watching others</h1>
+    <h5>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. </h5>
+  </div>
+
+  <div class="box">
+    <div class="free">
+      <button type="button"><b>Try it free 7 days</b> then $20/mo. thereafter</button>
+
+    </div>
+
+    <div class="logform">
+
+      <div class="form__input-group">
+        <input type="text" class="form__input"autofocus placeholder="First Name">
+        <div class="form__input-error-message">
+          <svg  class="errorphoto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <small class="errortext">First Name cannot be empty</small>
+        </div>
+      </div>
+
+      <div class="form__input-group">
+        <input type="text" class="form__input"autofocus placeholder="Last Name">
+        <div class="form__input-error-message">
+          <svg  class="errorphoto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <small class="errortext">Last Name cannot be empty</small>
+        </div>
+      </div>
+
+      <div class="form__input-group">
+        <input type="text" class="form__input"autofocus placeholder="Email Address">
+        <div class="form__input-error-message">
+          <p id="mail">email@example/com</p>
+          <svg class="errorphoto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <small class="errortext">Looks Like this is not an email</small>
+        </div>
+      </div>
+
+      <div class="form__input-group">
+        <input type="password" class="form__input"autofocus placeholder="password">
+        <div class="form__input-error-message">
+          <svg  class="errorphoto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          <small class="errortext">Password cannot be empty</small>
+        </div>
+      </div>
+
+      <div class="form__input-group"></div>
+      <button type="button" id="registrationButton"><b>Claim your free trial</b></button>
+      </div>
+      <div class="form__input-group"></div>
+      <h4> By clicking the button, you are agreeing to our <b>Terms and Services</b></h4>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+ 
+</body>
+</html>
